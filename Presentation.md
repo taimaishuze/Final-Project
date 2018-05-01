@@ -4,6 +4,7 @@
 
 ### Week 1 - 4
 - [Hello World](https://github.com/taimaishuze/hello-world) - A look back at the glorious initial repository.  Getting the hang of using GitHub on the website and in the terminal.
+
 Both of the following weeks were basic commands that I learned through the first couple weeks of the course such as updating, upgrading, partitions, remove files, and changing directories.
 - [Week 3](https://github.com/taimaishuze/Week3Lab)
 - [Week 4](https://github.com/taimaishuze/Week4Lab)
