@@ -11,14 +11,16 @@ Both of the following weeks were basic commands that I learned through the first
 
 ### Week 5 - 8
 - [Week 5 Bootable USB](https://github.com/taimaishuze/Bootable-Ubuntu-Mate) - I decided to go with Ubuntu Mate for my persistant bootable USB.  It was pretty much the same as Ubuntu but in a "lighter" version.
+
+For Week 6 and 7, we sent into dmseg, grep, and the user run levels.  I realized that grep was a very useful tool that can be used to locate certain key words when searching for applications that are running.
 - [Week 6](https://github.com/taimaishuze/Week6Lab)
 - [Week 7](https://github.com/taimaishuze/Week7Lab)
 - [Week 8 Midterm](https://github.com/taimaishuze/Week8Lab/blob/master/Review.sh) - For the finals, I used a menu system to demonstrate to run some of the scripts that I learned in the first half of the course.  Kudos to [EmanMac](https://github.com/EmanMac) for sharing this idea.  This was certainly a very cool idea that made my midterm presentation more appealing.
 - [Build a menu](https://github.com/taimaishuze/Build-a-Menu) - Here is the original menu script that was used.  Some editing will need to be done to personalize the script.
 
 ### Week 9 - 12
-- [Week 9]()
-- [Week 10]()
+- [Week 9]() - Spring Break??
+- [Week 10]() - More Spring Break??
 - [Week 11](https://github.com/taimaishuze/Week11Lab)
 - [Week 12](https://github.com/taimaishuze/Week12Lab)
 
