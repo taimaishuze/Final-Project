@@ -1,0 +1,335 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+@import url(https://fonts.googleapis.com/css?family=Trade Winds);
+
+/*************************
+*******Typography******
+**************************/
+
+body {
+  background: #fff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #333;
+  line-height:1.6em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight:500; 
+    font-family:'Open Sans', Arial, sans-serif;
+	color:#333;
+}
+
+
+a {
+  color: #E8CE0E;
+  -webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition:  color 300ms, background-color 300ms;
+  transition:  color 300ms, background-color 300ms;
+}
+
+a:hover, a:focus {
+  color: #d43133;
+}
+
+hr {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #fff;
+}
+
+
+.btn-primary {
+  padding: 8px 20px;
+  background: #E8CE0E;
+  color: #fff;
+  border-radius: 4px;
+  border:none;
+  margin-top: 10px;
+}
+
+
+.btn-primary:hover, 
+.btn-primary:focus{
+  background: #E8CE0E;
+  outline: none;
+  box-shadow: none;
+} 
+
+.btn-transparent {
+  border: 3px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.btn-transparent:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+a:hover,
+a:focus {
+  color: #000;
+  text-decoration: none;
+  outline: none;
+}
+
+.dropdown-menu {
+  margin-top: -1px;
+  min-width: 180px;
+}
+
+.center h2{
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.media>.pull-left{
+  margin-right: 20px;
+}
+
+.media>.pull-right{
+  margin-left: 20px;
+}
+
+body > section {
+  padding: 70px 0;
+}
+
+.center {
+  text-align: center;
+  padding-bottom: 55px;
+}
+
+.scaleIn {
+  -webkit-animation-name: scaleIn;
+  animation-name: scaleIn;
+}
+
+.lead{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.transparent-bg {
+  background-color: transparent !important;
+  margin-bottom: 0;
+}
+
+@-webkit-keyframes scaleIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+
+/*************************
+*******Header******
+**************************/
+.navbar-fixed-top .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar>.container .navbar-brand{
+  margin-left: 0;
+  font-family: 'Trade Winds';
+}
+
+.top-bar {
+  padding: 10px 0;
+  background: blue;
+  border-bottom: 1px solid #222;
+  line-height: 28px;
+}
+
+.social{
+  text-align: center;
+}
+
+.social-share{
+ display: inline-block;
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+ul.social-share li {
+  display: inline-block;
+}
+
+ul.social-share li a {
+  display: inline-block;
+  color: #fff;
+  background: #404040;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+ul.social-share li a:hover {
+  background: #E8CE0E;
+  color: #fff;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin:0;
+  color:#E8CE0E;
+  
+}
+/*************************** Menu Header Text Color ****************************************************/
+.navbar-header a.navbar-brand {
+  color:white;
+}
+/*************************** Menu Header Color ****************************************************/
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  background: #151515;
+  padding: 15px 0;
+  padding-bottom: 0;
+}
+
+ .navbar-nav{
+  margin-top: 0px;
+ }
+
+.navbar-nav>li{
+  margin-left: 0px;
+  padding-bottom: 15px;
+}
+
+.navbar-fixed-top .navbar-nav > li > a {
+  padding: 5px 10px;
+  margin: 0;
+  border-radius: 3px;
+  color: #fff;
+  line-height: 24px;
+  display: inline-block;
+}
+/*************************** Menu Header Text Hover Background ****************************************************/
+.navbar-fixed-top .navbar-nav > li > a:hover{
+	background-color: White;
+  color: black;
+}
+
+.navbar-fixed-top {
+  border: none;
+}
+
+.navbar-fixed-top .navbar-brand {
+  font-size: 25px;
+  line-height: 40px;
+  color: #fff;
+}
+/*************************** Menu Header Color Main Focus Page ****************************************************/
+.navbar-fixed-top .navbar-nav > .active > a,
+.navbar-fixed-top .navbar-nav > .active > a:hover,
+.navbar-fixed-top .navbar-nav > .active > a:focus,
+.navbar-fixed-top .navbar-nav > .open > a,
+.navbar-fixed-top .navbar-nav > .open > a:hover,
+.navbar-fixed-top .navbar-nav > .open > a:focus {
+  background-color: white;
+  color: black;
+}
+
+.navbar-fixed-top .navbar-nav .dropdown-menu {
+  background-color: rgba(0,0,0,.85);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+  border: 0;
+  padding: 0;
+  margin-top: 0;
+  border-top: 0;
+  border-radius: 0;
+  left: 0;
+}
+
+.navbar-fixed-top .navbar-nav .dropdown-menu:before{
+  position: absolute;
+  top:0;
+}
+
+.navbar-fixed-top .navbar-nav .dropdown-menu > li > a {
+  padding: 8px 15px;
+  color: #fff;
+}
+
+.navbar-fixed-top .navbar-nav .dropdown-menu > li:hover > a,
+.navbar-fixed-top .navbar-nav .dropdown-menu > li:focus > a,
+.navbar-fixed-top .navbar-nav .dropdown-menu > li.active > a {
+  background-color: #E8CE0E;
+  color: #fff;
+}
+
+.navbar-fixed-top .navbar-nav .dropdown-menu > li:last-child > a {
+  border-radius: 0 0 3px 3px;
+}
+
+.navbar-fixed-top .navbar-nav .dropdown-menu > li.divider {
+  background-color: transparent;
+}
+
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-top .navbar-form {
+  border-top: 0;
+  padding-bottom: 0;
+}
+
+.mainContent {	
+	padding-top: 75px;
+}
+
+div.images {
+display: block;
+background-color: transparent;
+}
+
+div.images img {
+display: block;
+float: left;
+width: 228px;
+height: 228px;
+border-style: solid;
+border-width: 3px;
+border-color: #000000;
+}
+
+.clear {
+clear: both;
+height: 0;
+width: 0;
+font-size: 3px;
+line-height: 0;
+}
